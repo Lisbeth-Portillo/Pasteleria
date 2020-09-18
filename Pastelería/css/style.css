@@ -1,0 +1,137 @@
+/* Nav */
+
+.navimg {
+    text-align: center;
+    background-color: palevioletred;
+}
+
+.navimg span {
+    color: white;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: block !important;
+    }
+    .navbar-expand-lg .navbar-collapse li {
+        border: 4px solid #05D5C8;
+        margin: 5px;
+        width: 150px;
+        text-align: center;
+        background: white;
+    }
+}
+
+
+/* Carrousel */
+
+.carousel {
+    width: 55%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border: 5px solid black;
+}
+
+@media (max-width: 946px) {
+    .carousel {
+        width: 100%;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    @media (max-width: 454px) {
+        .contenido h6 {
+            font-size: 13px;
+        }
+        .contenido {
+            padding: 0px 70px;
+        }
+    }
+}
+
+@media(min-width: 946px) {
+    .contenido {
+        margin: 0px 120px;
+    }
+}
+
+
+/* Descripcion inicio */
+
+#descripcion {
+    font-size: 20px;
+    color: #05D5C8;
+    margin-top: 20px;
+    border-bottom: 5px solid #05D5C8;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: palevioletred;
+    margin-top: 20px;
+    color: white;
+}
+
+.redes {
+    background-color: black;
+    padding: 10px;
+}
+
+
+/* Nosotros */
+
+.nosotros {
+    padding-top: 40px;
+}
+
+.nosotros .btn {
+    margin-bottom: 30px;
+}
+
+
+/*Pagina nosotros*/
+
+.botones button {
+    padding: 10px;
+    border: 5px solid #05D5C8;
+    width: 60%;
+    margin: 10px 0px;
+    font-size: 14px;
+}
+
+b {
+    color: #05D5C8;
+}
+
+.nosotros h4,
+{
+    border-bottom: 5px solid #05D5C8;
+}
+
+
+/*Menu*/
+
+.menu h3 {
+    color: #05D5C8;
+}
+
+.categoria h3 {
+    color: palevioletred;
+    padding: 10px;
+    font-size: 25px;
+}
+
+
+/* Contacto */
+
+.input-group-text {
+    width: 150px;
+}
+
+.btn {
+    border: 2px solid palevioletred;
+    width: 100%;
+}
